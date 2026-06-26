@@ -114,3 +114,17 @@ docker compose down -v
 - Log aggregation with Loki/Promtail
 - Fault injection and incident troubleshooting
 - Basic statistical anomaly detection in Python
+
+## Screenshots
+
+### Normal traffic
+![Normal traffic](screenshots\normal_traffic.png)
+
+### Latency spike (chaos/slow/on)
+![Latency spike](screenshots\latency_spike.png)
+
+### Error rate spike (chaos/errors/0.3)
+![Error rate](screenshots\error-rate.png)
+
+### Container crash and recovery
+![Crash recovery](screenshots\crash-recovery.png)
